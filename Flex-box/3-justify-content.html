@@ -11,6 +11,7 @@
             border: 1px solid black;
             margin: 0;
             display: flex;
+            margin-bottom: 10px;
         }
 
         .item {
@@ -22,10 +23,20 @@
         .flex-start{
             justify-content: flex-start;
         }
+        .flex-end{
+            justify-content: flex-end;
+        }
     </style>
 </head>
 <body>
+    <p>Flex Start</p>
     <section class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item 3</div>
+    </section>
+    <p>Flex end</p>
+    <section class="ntainer flex-end">
         <div class="item">1</div>
         <div class="item">item 2</div>
         <div class="item">outro item 3</div>
