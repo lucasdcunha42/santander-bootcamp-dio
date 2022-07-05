@@ -9,7 +9,6 @@
         .container {
             height: 400px;
             max-width: 300px;
-            margin: 0 auto;
             display: flex;
             flex-wrap: wrap;
             border: 1px solid black;
@@ -21,17 +20,21 @@
             text-align: center;
             color: white;
         }
+        .stretch{
+            align-content: stretch;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">lorem </div>
+        <div class="item">texto numero 2</div>
+        <div class="item">outro texto numero 3</div>
+        <div class="item">este texto é o numero 4</div>
+        <div class="item">quinto texto escrito </div>
+        <div class="item">texto 6</div>
+        <div class="item">setimo texto escrito </div>
     </div>
 </body>
 </html>
